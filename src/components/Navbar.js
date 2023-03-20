@@ -8,7 +8,7 @@ function Navbar(props) {
         className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="#">
             {props.title}
           </a>
           <button
@@ -29,11 +29,11 @@ function Navbar(props) {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/about">
                   {props.aboutText}
                 </a>
-              </li>
+              </li> */}
             </ul>
             {/* <form className="d-flex">
               <input
